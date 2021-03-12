@@ -1,0 +1,195 @@
+@keyframes pisca{
+    0% {opacity: 0.2;}
+    50% {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna{
+background-color: rgb(221, 218, 218);
+padding: 30px;;
+display: flex;
+}
+
+.tela{
+width: 500px;
+height: 320px;
+background: linear-gradient(to right, rgb(255, 255, 255), rgb(161, 161, 161));
+display: flex;
+flex-direction: column;
+
+
+}
+
+.teclado{
+background-color: rgb(82, 82, 82);
+
+}
+
+
+.teclado--linha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado--btn{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 3px 3px 0px gray;
+    cursor: pointer;
+}
+
+.teclado--btn:hover{
+    background-color: rgb(94, 94, 94);
+    color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 5px rgb(206, 206, 206);
+}
+
+.btn--branco{
+    width: 70px;
+    background-color: honeydew;
+    color: black;
+    font-size: 11px;
+}
+
+.btn--corrige{
+    width: 70px;
+    background-color: chocolate;
+    color: black;
+    font-size: 10px;
+
+}
+
+.btn--confirma{
+    width: 70px;
+    height: 40px;
+    background-color: green;
+    color: black;
+    font-size: 10px;
+}
+
+
+.d-1{
+    flex: 1;
+    display: flex;
+}
+.d-1-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+
+}
+
+.d-1-1{
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.d-1-2{
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.d-1-3{
+    height: 50px;
+  
+    
+}
+.numero{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    line-height: center;
+    font-size:25px;
+}
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+.d-1-4{
+    flex: 1;
+    
+    line-height: 25px;
+}
+
+.d-1-right{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.d-1-img{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 14px;
+}
+
+.d-1-img img{
+    width: 100%;
+}
+.d-1-img.small{
+width: 60%;
+font-size: 10px;
+}
+
+.d-2{
+    height: 50px;
+    font-size: 14px;
+    border-top:2px solid black ;
+padding: 10px;
+}
+
+.aviso--grande{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 4em;
+}
+
+.branco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 2.6em;
+}
+
+.aviso--gigante{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
